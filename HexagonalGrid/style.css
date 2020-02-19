@@ -43,8 +43,16 @@ body {
     -webkit-transform: skewY(-30deg) rotate(60deg);
     -ms-transform: skewY(-30deg) rotate(60deg);
     transform: skewY(-30deg) rotate(60deg);
+    overflow: hidden;
 }
 
 #grid li * {
   visibility: visible;
+}
+
+#img {
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
